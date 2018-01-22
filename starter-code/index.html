@@ -5,11 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel='stylesheet' href='styles.css'>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <title>npm</title>
 </head>
 
 <body>
-  <header>
+  <nav>
     <div class="top-left">
       <a class="heart" href="#">♥︎</a>
       <span class="acronym">Neophobe Plebeian Mumpsimus</span>
@@ -31,29 +33,32 @@
         <a href="#">support</a>
       </li>
     </ul>
-  </header>
+  </nav>
 
   <section id="introduction">
-    <div id='search-bar'>
-      <img src='./images/npm-logo.png' alt='npm'>
-      <input type='text' placeholder="find packages">
-      <button class="search">Search</button>
-    </div>
-    <ul class="registration-links">
-      <li>
-        <a href='#'>sign up</a> or
-        <a href='#'>login</a>
-      </li>
-      <li>
-        <img src='./images/bear-logo.png' alt='bear'>
-      </li>
-    </ul>
-    <div id='sign-up'>
-      <h2 class="section-header">Build amazing things</h2>
-      <p>npm is the package manager for JavaScript and the world’s largest software registry. Discover packages of reusable
-        code — and assemble them in powerful new ways.</p>
-      <button class="intro-button">Sign up for npm</button>
-    </div>
+    <header>
+      <div id='search-bar'>
+        <img src='./images/npm-logo.png' class="logo" alt='npm'>
+        <input type='text' placeholder="find packages">
+        <button class="search">Search</button>
+        <ul class="registration-links">
+          <li>
+            <a href='#'>sign up</a> or
+            <a href='#'>login</a>
+          </li>
+          <li>
+            <img src='./images/bear-logo.png' alt='bear'>
+          </li>
+        </ul>
+      </div>
+      <div id='sign-up'>
+        <h2 class="section-header">Build amazing things</h2>
+        <p>npm is the package manager for JavaScript and the world’s largest software registry. Discover packages of reusable
+          code — and assemble them in powerful new ways.</p>
+        <img src='./images/city-scape.svg' alt='city skyline'>
+        <button class="intro-button">Sign up for npm</button>
+      </div>
+    </header>
   </section>
 
   <section id="orgs">
